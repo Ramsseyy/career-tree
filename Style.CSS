@@ -1,0 +1,51 @@
+/* Css Style sheet for Career Tree Project 10/25/21 */
+
+html{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background: url('images/lake.jfif') no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+/* Navabar */
+.navbar{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    background-color: #333;
+    padding: .5em;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Scheherazade New', serif;font-family: 'Scheherazade New', serif;
+}
+
+/*Media Screen for Navbar*/
+@media only screen and (min-width: 400px) {
+    .navbar{
+    display: flex;
+    flex-wrap: wrap;
+    }
+}
+
+/* Heading 1 */
+h1{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    text-align: center;
+    margin-top: 23%;
+    color: cornsilk;
+    font-size: 5em;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+
+
+

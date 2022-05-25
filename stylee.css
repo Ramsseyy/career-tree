@@ -1,0 +1,120 @@
+/* Css Style sheet for Career Design 10/25/21 */
+
+html{
+    background-image: linear-gradient(to right, lightblue, white);
+    background-repeat: no-repeat;
+}
+
+/* Navebar CSS Code */
+.navbar{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    background-color: rgb(51, 51, 51);
+    padding: 1em;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Scheherazade New', serif;font-family: 'Scheherazade New', serif;
+}
+
+/*Media Screen for Navbar*/
+@media only screen and (min-width: 400px) {
+    .navbar{
+    display: flex;
+    flex-wrap: wrap;
+    }
+}
+
+/* Image Class */
+.img{
+    
+    width:98.65%;
+    opacity: 75%;
+    border: black 10px solid;
+    
+}
+
+/* Heading 1 */
+h1{
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    text-decoration: underline;
+}
+
+/* Container Class */
+.container{
+    display: flex;
+    flex-flow: wrap;
+    justify-content:space-evenly;
+    color: black;
+    border: white 5px solid;
+    padding: .5em;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Zen Maru Gothic', sans-serif;
+
+}
+
+/* Sub1 Id */
+#sub1{
+    text-align: center;
+    background-color: rgba(124, 197, 148, 0.89);
+    padding: .5em;
+    border: thick 4px black;
+    border-radius: 4px;
+}
+
+/* Sub2 Id */
+#sub2{
+    text-align: center;
+    background-color: rgba(124, 197, 148, 0.89);
+    padding: .5em;
+    border: thick 4px black;
+    border-radius: 4px;
+}
+
+/* Sub4 Id */
+#sub3{
+    text-align: center;
+    background-color: rgba(124, 197, 148, 0.89);
+    padding: .5em;
+    border: thick 4px black;
+    border-radius: 4px;
+}
+
+@media(max-width: 840px){
+    .container{
+        flex-direction: column;
+    }
+    
+}
+
+@media(max-width: 480px){
+    #sub1{
+        flex-direction: column;
+        
+    }
+    
+}
+
+@media(max-width: 480px){
+    #sub2{
+        flex-direction: column;
+    }
+    
+}
+
+@media(max-width: 480px){
+    #sub3{
+        flex-direction: column;
+    }
+    
+}
+
+
+
